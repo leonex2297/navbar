@@ -31,6 +31,6 @@ export const Social = [
   {
     id: 2,
     url: "https://twitter.com/login?lang=en-gb",
-    imge: "ttr.svg",
+    imge: `ttr.svg`,
   },
 ];

@@ -52,8 +52,22 @@ ul {
 
 /* .nav-container {
   height: 10rem;
-}
-.link-container {
-  height: 0rem;
-  overflow: hidden;
 } */
+
+.link-container li {
+  display: inline;
+  padding: 20px;
+}
+.link-container li :hover {
+  background-color: rgb(238, 137, 137);
+  border-radius: 10px;
+  padding: 7px;
+}
+.icon-container ul li {
+  display: inline;
+  padding: 10px;
+}
+.icon-container ul li :hover {
+  background-color: #58acfa;
+  border-radius: 10px;
+}
