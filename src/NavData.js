@@ -1,4 +1,3 @@
-// import "../public/fb.svg";
 export const NavData = [
   {
     id: 1,

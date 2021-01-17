@@ -1,0 +1,18 @@
+.modal-container {
+  width: 100%;
+  position: relative;
+  height: 86%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.modal-div {
+  height: 200px;
+  width: 200px;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px gray;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}

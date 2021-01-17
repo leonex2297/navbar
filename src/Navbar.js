@@ -22,11 +22,11 @@ const Navbar = () => {
   }, [showLinks]);
 
   return (
-    <div className="container">
+    <div className="header-container">
       <div className="nav-header">
         <img src="hdrlogo.svg" alt="pixa" className="header-logo" />
 
-        <div className="nav-container" ref={navContainer}>
+        <div ref={navContainer}>
           <ul className="link-container">
             {NavData.map((data) => {
               const { id, title, url } = data;

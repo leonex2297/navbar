@@ -1,0 +1,20 @@
+.sidebar-container {
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px gray;
+  border-radius: 3px;
+}
+
+.list {
+  margin-top: 30px;
+}
+.sidebar-list li {
+  padding: 15px;
+  font-size: 1rem;
+}
+.sidebar-list li:hover {
+  background-color: rgb(238, 137, 137);
+  border-radius: 10px;
+}
